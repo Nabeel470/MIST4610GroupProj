@@ -89,6 +89,10 @@ Query 5 lists each Product Line's brand name along with the total revenue genera
 
 This query allows managers to identify which product lines contribute the most to total sales revenue. By knowing which brands perform well, managers can adjust inventory levels to stock more of high-performing product lines and negotiate better deals with suppliers.
 
+Query 6 lists the ID, first name, last name, and order count for customers who's average order count exceeds the average order count for customers. It joins the Orders table with the customers table to calculate the average, while using a having clause to filter out the customers below the average. 
 
+![query6](https://github.com/user-attachments/assets/03042cd5-15ce-415a-8436-71baf6510fe8)
+
+Query six allows the managers to highlight high volume customers. Having access to your important customers allows the store to engage and create lasting relationships with returning customers, while also being able to notice if there are patterns between frequent and infrequent customers. 
 
 ## Database Information
