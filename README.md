@@ -61,7 +61,8 @@ This data model captures the entire customer journey, from initial consultation 
 ### 1) Description
 Query 1 lists each customer who has placed more than one order and shows the total number of orders placed by each customer. The query combines the customer's first and last name for readability and orders the results by the number of orders.
 
-![image](https://github.com/user-attachments/assets/53191766-ac22-450a-8903-f22d3ad9849b)
+![image](https://github.com/user-attachments/assets/db6256fd-6824-418c-ade6-94c84bc130ff)
+
 
 ### Justification
 Query 1 allows managers to identify repeat customers who are consistently making purchases. These customers are essential to LensCrafters' long-term revenue because retaining repeat customers is more cost-effective than acquiring new ones. Recognizing these loyal customers allows managers to design targeted loyalty programs, personalized marketing offers, or exclusive promotions to foster customer retention and maximize sales. 
