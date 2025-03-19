@@ -4,11 +4,11 @@ This project involves the development and population of a comprehensive relation
 
 
 ## Group Members
-##### Nabeel Sadiq
-##### Josh Libatique
-##### Anthony Lopez
+##### Nabeel Sadiq [NabeelSadiq](https://www.github.com/Nabeel470)
+##### Joshua Libatique [JoshuaLibatique](https://www.github.com/jiyuukane)
+##### Anthony Lopez [AnthonyLopez](https://www.github.com/asl58391)
 ##### Ethan Payne
-##### Claire Stockman
+##### Claire Stockman [ClaireStockman](https://www.github.com/clairestockman)
 ## Data Model
 Our model is based on the structure of a optical retail business, like LensCrafters. The Location entity represents the physical store locations across different regions. Each location can have multiple employees working within it, which is reflected by the one-to-many relationship between the Locations and Employees entities.
 
@@ -55,6 +55,9 @@ This data model captures the entire customer journey, from initial consultation 
 
 
 ## Queries
+![image](https://github.com/user-attachments/assets/0ab65472-93e1-4a8f-b115-36c26c2f5147)
+
+
 ### 1) Description
 Query 1 lists each customer who has placed more than one order and shows the total number of orders placed by each customer. The query combines the customer's first and last name for readability and orders the results by the number of orders.
 
@@ -66,7 +69,8 @@ Query 1 allows managers to identify repeat customers who are consistently making
 ### 2) Description
 Query 2 calculates the average payment amount for each payment type (e.g., Credit Card, Cash, Debit Card). It groups payments by payment type and orders the results by average amount in descending order.
 
-![image](https://github.com/user-attachments/assets/d65d2aef-1c28-42fe-8eed-a6e790a0086d)
+![image](https://github.com/user-attachments/assets/b36600a7-4423-4d5d-ba29-ee8b01b5cd74)
+
 
 ### Justification
 Query 2 allows managers to analyze which payment methods tend to generate higher transaction amounts. This insight is valuable for understanding customer payment preferences and tailoring incentives (such as discounts for certain payment types) to encourage customers to use more profitable payment methods.
@@ -126,6 +130,14 @@ Query 9 lists the location ID, address, and total sales for each location that i
 
 ### Justification
 Query 9 allows managers to see which locations are underperforming and investigate possible reasons. It also allows them to implement new training programs to boost performance and possibly offer promotions to get more profits.
+
+### 10) Description
+Query 10 lists the date of the order and the customer's first and last name for orders that have not been shipped yet. This will join the Order and Customer table and only list out the Customer names and dates of orders that are pending or processing. It will then Order from least recent to most recent order date.
+
+<img width="885" alt="Screenshot 2025-03-18 at 10 26 01 PM" src="https://github.com/user-attachments/assets/de8a5699-865f-4640-99a5-4012d7b8c5cb" />
+
+### Justification
+Managers would benefit from Query 10 because late shipments can frustrate customers. Figuring out where there may be delays in shipments and having proactive communication with customers can be beneficial in maintaining good relationships with customers. Having the results ordered by least recent order date allows managers to see which customers have been waiting the longest and they can potentially offer compensation to the customers affected by this. It can also help managers potentially find recurring problems or logistical issues.
 
 
 ## Database Information
